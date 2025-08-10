@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import logo from '../assets/logoDark.png';
 import { HiMenu, HiX } from "react-icons/hi";
 
@@ -17,10 +17,10 @@ const Header = () => {
   window.addEventListener("scroll", changeBg);
 
   const navLinks = [
-    {label: 'products', href: '/#products'},
-    {label: 'customers', href: '/#customers'},
-    {label: 'pricing', href: '/#pricing'},
-    {label: 'learn', href: '/#learn'},
+    {label: 'products', href: '/'},
+    {label: 'customers', href: '/'},
+    {label: 'pricing', href: '/'},
+    {label: 'learn', href: '/'},
   ];
 
   return (

@@ -1,12 +1,13 @@
-# React + Vite
+# Finpay Website by Devang Patani
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is to showcase my front-end development skills using Tail Wind CSS and React JS.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## View Website
 
-## Expanding the ESLint configuration
+Link to: [Finpay](https://finpay-devang-patani-dipa-uiux.netlify.app/).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Acknowledgement 
+- I [@Devang Patani](https://www.behance.net/devangmrugeshpatani) only have copyright of the developed code in this project [Finpay](https://finpay-devang-patani-dipa-uiux.netlify.app/) developed by me to showcase my fonrt-end development skills using [Tail Wind CSS](https://tailwindcss.com/docs/installation/using-vite) with Vite (React JS).
+
+- [@Dipa UI/UX](https://dribbble.com/dipauix) is the UI/UX designer of the project [Finpay @Dribbble](https://dribbble.com/shots/24820686-Finpay-Fintech-Landing-Page) and all copyright of the website design belongs to Dipa UI/UX only.
