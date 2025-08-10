@@ -31,14 +31,14 @@ const Mission = () => {
           ))}
         </div>
         <div className='w-full grid grid-cols-1 lg:grid-cols-2 px-4 gap-12'>
-          <div className='grid-span-1 h-56 md:h-72 p-10 bg-green-100 rounded-xl flex flex-col items-start justify-between font-bold'>
-            <h2 className='w-full text-left text-4xl lg:text-5xl text-blue-900'>{plans[0].title}</h2>
-            <div className='w-full flex flex-row items-center justify-between text-gray-900'>
+          <div className='grid-span-1 h-56 md:h-72 p-10 bg-green-100 text-blue-900 rounded-xl flex flex-col items-start justify-between font-bold hover:shadow-xl hover:bg-green-500 hover:text-white transition-all duration-300 ease-in-out'>
+            <h2 className='w-full text-left text-4xl lg:text-5xl'>{plans[0].title}</h2>
+            <div className='w-full flex flex-row items-center justify-between'>
               <p className='text-left text-xl'>{plans[0].cost}</p>
               {plans[0].icon}
             </div>
           </div>
-          <div className='grid-span-1 h-56 md:h-72 p-10 rounded-xl flex flex-col items-start justify-between font-bold text-white bg-no-repeat bg-cover bg-center' style={{backgroundImage: `url(${bg_2})`}}>
+          <div className='grid-span-1 h-56 md:h-72 p-10 rounded-xl flex flex-col items-start justify-between font-bold text-white bg-no-repeat bg-cover bg-center hover:shadow-xl transition-all duration-300 ease-in-out' style={{backgroundImage: `url(${bg_2})`}}>
             <h2 className='w-full text-left text-4xl lg:text-5xl '>{plans[1].title}</h2>
             <div className='w-full flex flex-row items-center justify-between'>
               <p className='text-left text-xl'>{plans[1].cost}</p>

@@ -11,10 +11,10 @@ const CTA = () => {
           <p className='w-full md:w-4/5 text-white/75 text-md mx-auto lg:mx-0'>Supports small businesses with simple invoicing, powerful integrations, and cash flow management tools.</p>
         </div>
         <div className='w-full h-full flex flex-col lg:flex-row items-center justify-end gap-4 lg:gap-8'>
-          <button type='button' className='w-full lg:w-max lg:px-6 py-3 bg-green-500 rounded-xl flex flex-row items-center justify-center'>
+          <button type='button' className='w-full lg:w-max lg:px-6 py-3 bg-green-500 border-1 border-green-500 rounded-xl flex flex-row items-center justify-center hover:bg-transparent hover:border-1 hover:border-green-100 transition-all duration-300 ease-in-out'>
             <span className='text-lg font-bold'>Get Started Now</span>
           </button>
-          <button type='button' className='w-full lg:w-max lg:px-6 py-3 border border-gray-100 rounded-xl flex flex-row gap-4 items-center justify-center'>
+          <button type='button' className='w-full lg:w-max lg:px-6 py-3 border border-green-100 rounded-xl flex flex-row gap-4 items-center justify-center hover:bg-green-500 hover:border-1 hover:border-green-500 transition-all duration-300 ease-in-out'>
             <span className='text-lg font-bold'>Learn More</span>
             <MdOutlineArrowOutward className='size-6' />
           </button>
